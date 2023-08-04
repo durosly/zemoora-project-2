@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+}
+
+.landing {
+	height: 100vh;
+	background-color: #000;
+	position: relative;
+	/* padding: 30px; */
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.bg-gradient {
+	/* background-color: red; */
+	height: 100%;
+	width: 40%;
+	position: absolute;
+	right: 0px;
+	clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 0% 100%);
+	background-image: linear-gradient(
+		30deg,
+		rgb(168, 27, 180),
+		rgb(50, 11, 106)
+	);
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-size: 80px;
+	margin-top: 0;
+}
+
+h1 span {
+	display: block;
+}
+
+.container {
+	position: relative;
+	/* z-index: 9999; */
+	width: 90%;
+	margin-inline: auto;
+}
+
+.badge-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	width: 80%;
+}
+
+.badge {
+	background-color: rgb(255, 255, 255);
+	padding: 20px 30px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	flex-basis: 40%;
+}
+
+.badge img {
+	height: 30px;
+}
